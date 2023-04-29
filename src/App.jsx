@@ -1,10 +1,16 @@
+import React from 'react';
 import './App.css';
 
+import OptionSelection from './Components/OptionSelection/OptionSelection'
+import options from './AIOptions/index.json';
+
+
 function App() {
+
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <React.Fragment>
+      <OptionSelection options={options} />
+    </React.Fragment>
   );
 }
 
