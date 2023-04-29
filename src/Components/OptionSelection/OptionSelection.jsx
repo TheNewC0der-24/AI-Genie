@@ -29,7 +29,7 @@ const OptionSelection = ({ options }) => {
                     })}
                 </Grid>
             </Container>
-        </React.Fragment >
+        </React.Fragment>
     )
 }
 
