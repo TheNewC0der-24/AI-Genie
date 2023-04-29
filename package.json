@@ -11,6 +11,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
     "openai": "^3.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -29,7 +33,6 @@
     "vite": "^4.3.2"
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
   }
 }
