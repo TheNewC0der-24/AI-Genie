@@ -8,7 +8,7 @@ import {
     Typography,
 } from '@mui/material';
 
-const OptionSelection = ({ options }) => {
+const OptionSelection = ({ options, selectOption }) => {
 
     return (
         <React.Fragment>
@@ -18,7 +18,17 @@ const OptionSelection = ({ options }) => {
                     {options.map((item) => {
                         return (
                             <Grid item xs={12} sm={6} md={4} lg={4} key={item.id}>
-                                <Card sx={{ bgcolor: '#161A1D', color: '#dee2e6', border: "2px solid #161A1D", cursor: "pointer", height: "100%", '&:hover': { border: "2px solid #dee2e6" } }}>
+                                <Card sx={{
+                                    bgcolor: '#161A1D',
+                                    color: '#dee2e6',
+                                    border: "2px solid #161A1D",
+                                    cursor: "pointer",
+                                    height: "100%",
+                                    '&:hover': {
+                                        border: "2px solid #dee2e6"
+                                    }
+                                }} onClick={() => selectOption(item.option)}>
+                                    {item.icon}
                                     <CardContent>
                                         <Typography variant='h5' align='center'>{item.name}</Typography>
                                         <Typography mt={2} variant='body1' align='center'>{item.description}</Typography>
