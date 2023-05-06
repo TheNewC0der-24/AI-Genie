@@ -24,6 +24,7 @@ function App() {
 
   const handleBack = () => {
     setSelectedOption({});
+    setInput('');
   }
 
   const handleClearInput = () => {
