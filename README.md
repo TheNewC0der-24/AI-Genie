@@ -70,5 +70,16 @@ I have hosted on **Netlify**. So, accessible to everyone.
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## Preview
+<p>
+  <img src="https://github.com/TheNewC0der-24/AI-Genie/blob/master/Preview/Preview-1.png" width="400">
+  <img src="https://github.com/TheNewC0der-24/AI-Genie/blob/master/Preview/Preview-2.png" width="400">
+</p>
 
+## Link
+```
+https://ai-genie.netlify.app/
+```
 
+## Author
+- LinkedIn - [Bhavya Khurana](https://www.linkedin.com/in/bhavyakhurana24/)
+- Twitter - [@Bhavya06001699](https://twitter.com/Bhavya06001699)
