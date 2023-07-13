@@ -81,5 +81,5 @@ https://ai-genie.netlify.app/
 ```
 
 ## Author
-- LinkedIn - [Bhavya Khurana](https://www.linkedin.com/in/bhavyakhurana24/)
-- Twitter - [@Bhavya06001699](https://twitter.com/Bhavya06001699)
+- LinkedIn - [Bhavya Khurana](https://www.linkedin.com/in/bhavya-khurana/)
+- Twitter - [@Cynophilist_B](https://twitter.com/Cynophilist_B)
