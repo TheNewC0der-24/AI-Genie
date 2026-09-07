@@ -1,15 +1,8 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-
-import {
-    Card,
-    CardContent,
-    Container,
-    Grid,
-    Typography,
-} from '@mui/material';
+import { Card, CardContent, Container, Grid, Typography } from '@mui/material';
 
 const OptionSelection = ({ options, selectOption }) => {
-
     return (
         <React.Fragment>
             <Container maxWidth="lg">

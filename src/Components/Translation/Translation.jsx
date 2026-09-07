@@ -1,7 +1,5 @@
-import React from 'react'
-
+/* eslint-disable react/prop-types */
 import moment from 'moment';
-
 import {
     Container,
     Box,
@@ -15,12 +13,9 @@ import {
     Grid,
     Avatar
 } from '@mui/material';
-
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import SmartToyIcon from '@mui/icons-material/SmartToy';
-
 import noPreview from '../../assets/noPreview.svg';
-
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const darkTheme = createTheme({
@@ -29,8 +24,7 @@ const darkTheme = createTheme({
     },
 });
 
-function Translation({ doStuff, input, setInput, result, handleBack }) {
-
+function Translation({ doStuff, input, setInput, result, handleBack, loading }) {
     const handleClearInput = () => {
         setInput('');
     }
@@ -91,10 +85,10 @@ function Translation({ doStuff, input, setInput, result, handleBack }) {
                                         <Button
                                             variant='contained'
                                             sx={{ bgcolor: "#dee2e6", '&:hover': { bgcolor: '#dee2e6' } }}
-                                            disabled={input.length === 0}
+                                            disabled={input.length === 0 || loading}
                                             onClick={doStuff}
                                         >
-                                            Do Your Stuff!
+                                            {loading ? "Loading..." : "Do Your Stuff!"}
                                         </Button>
                                     </Box>
                                     <Box>

@@ -14,3 +14,27 @@ body {
   background-color: #101214;
   color: #dee2e6;
 }
+
+.custom-dialog {
+  .MuiDialog-paper {
+    background-color: #101214 !important;
+  }
+}
+
+.custom-button-outlined {
+  border-color: #ffdd00 !important;
+  color: #ffdd00 !important;
+}
+
+.custom-button-outlined:hover {
+  background-color: rgb(255 221 0 / 5%) !important;
+  border: 1px solid #ffdd00 !important;
+}
+
+.custom-button-text {
+  color: #ffdd00 !important;
+}
+
+.custom-button-text:hover {
+  background-color: rgb(255 221 0 / 5%) !important;
+}
